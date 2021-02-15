@@ -1,5 +1,5 @@
 # -*- mode: julia; -*-
-Base.__precompile__(true)
+Base.__precompile__(false)
 """
 The WAV package is a pure Julia library for reading and writing the
 [WAV audio file format](https://en.wikipedia.org/wiki/WAV).
